@@ -14,7 +14,6 @@
 
 ![Dashboard Preview](./assets/dashboard_preview.png)
 
-> *Add a screenshot of your deployed dashboard here by placing an image in an `assets/` folder.*
 
 ---
 
