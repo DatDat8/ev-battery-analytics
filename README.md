@@ -149,7 +149,7 @@ This app is deployed on **Streamlit Community Cloud**.
 
 ### Live App
 
-🔗 **[your-app-name.streamlit.app](https://your-app-name.streamlit.app)**
+🔗 **https://ev-battery-analytics-au3jwiu2f3jcmtftnodv8b.streamlit.app/**
 
 ### Deploy Your Own Fork
 
