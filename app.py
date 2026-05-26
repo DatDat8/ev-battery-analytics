@@ -78,7 +78,10 @@ h1 { color: #1e293b !important; font-weight: 700 !important; }
 # 3. LOCAL DATA LOADING PIPELINE
 # -----------------------------------------------------------------------------
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-FILE_PATH = os.path.join("./ev-battery-storage/processed-files", "CadenceTest_processed.parquet")
+# FILE_PATH = os.path.join("./ev-battery-storage/processed-files", "CadenceTest_processed.parquet")
+# Fixed — works both locally and on Streamlit Cloud
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FILE_PATH = os.path.join(BASE_DIR, "ev-battery-storage", "processed-files", "CadenceTest_processed.parquet")
 # FILE_PATH = os.path.join("processed-files", "CadenceTest_processed.parquet")
 
 @st.cache_data(ttl=60)
